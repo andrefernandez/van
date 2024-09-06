@@ -1,0 +1,52 @@
+.fw-600{
+    font-weight: 600;
+}
+img{
+    user-select: none !important;
+}
+.gap-custom-5{
+    gap: 4rem;
+}
+.h-color{
+    color: #211B49;
+}
+.h2-color{
+    color: #BC1B21;
+}
+.tr-60{
+    transform: translateY(60px);
+}
+.tr-45{
+    transform: translateY(45px);
+}
+.w-90{
+    width: 90% !important;
+}
+.w-80{
+    width: 80% !important;
+}
+.mt-10{
+    margin-top: 5rem;
+}
+.ml-auto{
+    margin-left: auto;
+}
+#differences, #benefits, #steps, #how, #hub, #inspire, #slider, #faq, #footer, #insta-grid{
+    padding: 50px 0px 100px 0px;
+    position: relative;
+}
+#how{
+    padding-bottom: 20px !important;
+}
+#footer{
+    padding-bottom: 0px !important;
+}
+#hub{
+    overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+    #differences, #benefits, #steps, #how, #hub, #inspire, #slider, #faq, #footer, #insta-grid{
+        padding: 50px 0px 50px 0px;
+        position: relative;
+    }
+}
