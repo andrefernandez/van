@@ -51,6 +51,22 @@
     padding: 12px 20px !important;
     width: 285px !important;
 }
+
+.btn-access:hover{
+
+    background-color: #BC1B21 !important;
+    box-shadow: none; 
+}
+
+
+.btn-access a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
 .hero{
     width: 100%;
     height: calc(100vh) !important;
@@ -89,6 +105,15 @@
     font-size: 17px;
     margin-top: 2rem;
     width: fit-content;
+}
+.btn-hero:hover{
+
+    background-color: #BC1B21;
+}
+.btn-hero a{ 
+    text-decoration: none !important;
+    color : #fff;
+    
 }
 .hero-img{
     height: 100%;
@@ -262,6 +287,15 @@
     padding: 10px 20px;
     border-radius: 15px;
 }
+.btn-step a { 
+    text-decoration: none !important;
+    color : #ffffff;
+}
+.btn-step:hover{ 
+    background-color: #BC1B21;
+    color: #fff;
+
+}
 .step-left{
     left: 0;
     bottom: 30px;
@@ -317,6 +351,21 @@
     font-size: 14px;
     margin-top: 1rem;
 }
+.btn-hub a { 
+    text-decoration: none;
+    color : #fff;
+}
+
+.btn-hub:hover { 
+    background-color: #DF1C25;
+    color : #fff;
+}
+.btn-footer a{text-decoration: none; color : #fff; }
+.btn-footer:hover {
+    background-color: #DF1C25;
+    color : #fff;
+}
+
 .hub-text h6{
     letter-spacing: 3px;
 }
