@@ -51,6 +51,11 @@ img{
     }
 }
 
-#benefits, #hub, #slider{
+#hub, #slider{
     padding: 90px 0px 50px 0px !important;
+}
+
+
+#benefits {
+    padding:  90px 0px 150px 0px !important;
 }
